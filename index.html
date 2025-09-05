@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RUBEN FLATCHEr</title>
+    <style>
+      body{ /*todo este sirve para el fondo de la pagina*/
+        display: flex;
+        align-items: center; 
+        justify-content: center;
+        height: 100dvh;
+        margin: 0%;
+        background-image: url(img/q.jpg);
+        background-size: cover;
+        background-position: center;
+        color: white;
+        font-family: monospace;
+      }
+      main{ /*para el cuerpo principal*/
+         display: flex;
+         flex-direction: column; 
+         align-items: center; 
+         gap: 8px;
+         max-width: 400px;
+         padding: 16px;
+         border-radius: 16px;
+         box-shadow: 0 4px 8px 0 white; /*para el contorno del cuadro*/
+         background-color: rgba(0, 0, 0, 0.482); /*para el fondo del cuadro*/
+         backdrop-filter: blur(4px); /*para poner borrosa la imagen*/
+         text-align: center;
+      }
+      img{ /*para la imagen que pusimos de centro*/
+        width: 224px; /*para el tamaño*/
+        height: 224px; /*para el tamaño*/
+        border-radius: 50%; /*para darle forma al recuadro de la foto*/
+        box-shadow: 0 4px 8px 0 rgba(7, 7, 7, 0.979); /*este es para el contorno de mi foto*/
+      }
+      h1{
+        margin: 0%;
+        font-size: 18px;
+      }
+      h2{
+        margin: 0%;
+        font-size: 16px;
+        color: white;
+      }
+      p{
+        margin: 0;
+        font-size: 14px;
+      }
+      ul{
+        padding: 0%;
+        margin: 0;
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 8px;
+      }
+      .badge{
+        padding: 4px; /*es el tamaño del relleno*/
+        border-radius: 8px; /*para agregarle forma al cuadro*/
+        background-color:white; /*su fondo de las cajitas*/
+        color: rgb(0, 0, 0); /*color de las letras*/
+        font-weight: 700; /*el tono de la letra*/
+        transition: box-shadow 0.25s, filter 0.25s; /*para agregarle un efecto de reflejo a las letras*/
+      }
+      .badge:hover{
+        box-shadow: 0 2px 4px 0 white;
+        filter: brightness(1.25);
+      }
+      .social-icons{
+        display: flex;
+        justify-content: center;
+        gap: 16px;
+        margin-top: 12px;
+      }
+      .social-icons a svg{
+        width: 32px;
+        height: 32px;
+        transition: transform 0.25s;
+      }
+      .social-icons a:hover svg{
+        transform: scale(1.2);
+      }
+    </style>
+</head>
+<body>
+  <main>
+    <img src="img/ruben.jpg" alt="RUBEN FLATCHER">  
+    <h1>👾RUBEN FLATCHER RANGEL<sup>23</sup>👾</h1> 
+    <h2>👨‍💻 Web Developer in Training | IT Enthusiast</h2>
+    <p>
+     🚀 Passionate about web development and IT. Currently a Systems Engineering student, eager to create innovative
+        digital solutions. Constantly learning programming, English, and new technologies to grow professionally.
+    </p>
+    <ul>
+      <li class="badge">💻 HTML, CSS & JavaScript (Basic Frontend)</li>
+      <li class="badge">🌐 Networking & Packet Tracer</li>
+      <li class="badge">⚡ Fast Learner</li>
+      <li class="badge">🤝 Teamwork</li>
+      <li class="badge"> 🌎 English in Progress (Intermediate)</li>
+    </ul>
+
+    <!-- 🔥 Íconos de redes sociales -->
+    <div class="social-icons">
+      <!-- Facebook -->
+      <a href="https://www.facebook.com/share/19c2qYMXwc/" target="_blank">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24" style="color:#1877F2;">
+          <path d="M22.675 0h-21.35C.6 0 0 .6 0 
+          1.326v21.348C0 23.4.6 24 1.326 
+          24h11.495v-9.294H9.691v-3.622h3.13V8.413c0-3.1 
+          1.893-4.788 4.659-4.788 1.325 0 2.464.099 
+          2.796.143v3.24l-1.918.001c-1.505 0-1.797.715-1.797 
+          1.763v2.313h3.59l-.467 3.622h-3.123V24h6.116C23.4 24 
+          24 23.4 24 22.674V1.326C24 .6 23.4 0 22.675 0z"/>
+        </svg>
+      </a>
+     <!-- Instagram -->
+<a href="https://instagram.com/ruben.fletcher.23?igsh=b2V3ajB3czFnZDRv" target="_blank">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" viewBox="0 0 24 24" style="color:#E4405F;">
+    <path d="M7.5 2h9A5.5 5.5 0 0 1 22 7.5v9A5.5 5.5 0 0 1 16.5 22h-9A5.5 5.5 0 0 1 2 16.5v-9A5.5 5.5 0 0 1 7.5 2zm0-2A7.5 7.5 0 0 0 0 7.5v9A7.5 7.5 0 0 0 7.5 24h9a7.5 7.5 0 0 0 7.5-7.5v-9A7.5 7.5 0 0 0 16.5 0h-9z"/>
+    <path d="M12 6.5A5.5 5.5 0 1 1 6.5 12 5.5 5.5 0 0 1 12 6.5zm0-2A7.5 7.5 0 1 0 19.5 12 7.5 7.5 0 0 0 12 4.5zM18 5.25a1.25 1.25 0 1 1-1.25-1.25A1.25 1.25 0 0 1 18 5.25z"/>
+  </svg>   
+      </a>
+      <!-- Whatsapp -->
+      <a href="https://wa.me/5636003591" target="_blank">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24" style="color:#25D366;">
+          <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 
+          5.338-11.891 11.893-11.891 3.181.001 
+          6.167 1.24 8.413 3.488 2.245 2.248 
+          3.482 5.236 3.48 8.414-.003 
+          6.557-5.338 11.892-11.893 
+          11.892-1.99-.001-3.951-.5-5.688-1.448L.057 
+          24zm6.597-3.807c1.676.995 3.276 
+          1.591 5.392 1.592 5.448 0 
+          9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 
+          4.434-9.889 9.884 0 2.225.651 
+          3.891 1.746 5.634l-.999 3.648 
+          3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.471-.149-.67.149-.198.297-.768.967-.941 
+          1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.149-.174.198-.298.298-.497.099-.198.05-.372-.025-.521-.075-.149-.669-1.611-.916-2.206-.242-.579-.487-.5-.669-.51-.173-.007-.372-.009-.571-.009-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479s1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.262.489 1.694.626.712.227 1.36.195 
+          1.872.118.571-.085 1.758-.718 2.006-1.412.248-.694.248-1.289.173-1.412z"/>
+        </svg>
+      </a>
+      <!-- Gmail -->
+      <a href="fletcher.89n@gmail.com">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24" style="color:#EA4335;">
+          <path d="M12 12.713l-11.985-9.713h23.97l-11.985 
+          9.713zm0 2.574l-12-9.713v13.426h24v-13.426l-12 
+          9.713z"/>
+        </svg>
+      </a>
+      <!-- GitHub -->
+      <a href="https://github.com/tu_usuario" target="_blank">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24" style="color:#000;">
+          <path d="M12 .297c-6.63 0-12 5.373-12 12 
+          0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 
+          0-.285-.01-1.04-.015-2.04-3.338.726-4.042-1.61-4.042-1.61C4.422 
+          18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 
+          1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 
+          1.305 3.495.998.108-.776.418-1.305.762-1.605-2.665-.3-5.466-1.332-5.466-5.93 
+          0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 
+          0 0 1.005-.322 3.3 1.23a11.52 11.52 0 0 1 3-.405c1.02.005 
+          2.045.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 
+          1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 
+          3.22 0 4.61-2.805 5.625-5.475 
+          5.92.42.36.81 1.096.81 2.22 0 1.605-.015 2.896-.015 
+          3.286 0 .315.21.69.825.57C20.565 22.092 24 
+          17.592 24 12.297c0-6.627-5.373-12-12-12"/>
+        </svg>
+      </a>
+    </div>
+  </main>  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
